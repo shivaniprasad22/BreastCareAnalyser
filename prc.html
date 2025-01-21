@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    
+<style>
+html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+
+body
+{
+background-color: #d6cbf5;
+}
+
+#space
+{
+margin-left: 100px;
+
+}
+
+#para
+{
+text-align: justify;
+margin-left: 100px;
+margin-right: 100px;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<!-- Top container -->
+<div class="w3-bar w3-top w3-large" style="z-index:4; background-color:#3B1364">
+      <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-text-white" onclick="w3_open();"><i class="fa fa-bars"></i>  Menu</button>
+      <span class="w3-bar-item w3-right w3-text-white">Cancer</span>
+</div>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container w3-row">
+    <div class="w3-col s4">
+      <a href="/BreastCancer"><img src="https://cdn-icons-png.flaticon.com/512/1/1247.png" class="w3-circle w3-margin-right" style="width:46px"  ></a>
+    </div>
+    <div class="w3-col s8 w3-bar">
+      <span>Welcome, <strong>Doctor</strong></span><br>
+     </div>
+  </div>
+  <hr>
+  <div class="w3-container">
+    <h5>Dashboard</h5> 
+  </div>
+   <div class="w3-bar-block">
+        <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onclick="w3_close()" title="close menu"><i class="fa fa-remove fa-fw"></i>  Close Menu</a>
+        <a href="/patient" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>  Patients</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-eye fa-fw"></i>  Overview</a>
+        <a href="/Analysis" class="w3-bar-item w3-button w3-padding"><i class="fa fa-diamond fa-fw"></i>  Analysis</a>
+        <a href="/Statistics" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bullseye fa-fw"></i>  Statistics</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bell fa-fw"></i>  Notifications</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bank fa-fw"></i>  Hospital</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-history fa-fw"></i>  History</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-cog fa-fw"></i>  Settings</a><br><br>
+  </div>
+</nav>
+
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px;margin-top:43px;">
+
+  <!-- Header -->
+  <header class="w3-container" style="padding-top:22px">
+    <h1><b><center>Prostate Cancer</center></b></h1>
+  </header>
+  <br>
+
+
+
+
+
+<div id="para">
+
+
+ <b> Prostate cancer</b> is a type of cancer that develops in the prostate gland, which is a small gland located below the bladder in men. The prostate gland produces a fluid that helps to nourish and protect sperm. Prostate cancer is one of the most common types of cancer in men, and it typically develops slowly over time.
+<br><br><br>
+<h3><b>Symptoms of Prostate Cancer:</b></h3><br>
+
+In its early stages, prostate cancer often has no symptoms. As the cancer grows, however, it can cause a range of symptoms, including:
+<br><br>
+- Difficulty urinating or a weak urine stream<br>
+- Blood in the urine or semen<br>
+- Pain or discomfort in the pelvic area<br>
+- Bone pain or tenderness, especially in the hips, spine, or ribs<br>
+- Erectile dysfunction (difficulty getting or maintaining an erection)<br><br>
+
+It is important to note that not all people with prostate cancer will experience these symptoms, and some people may not have any symptoms at all. If a person has any concerns about their prostate health, they should talk to their healthcare professional.
+<br><br><br>
+<h3><b>Causes of Prostate Cancer:</b></h3><br>
+
+The exact cause of prostate cancer is unknown, but certain risk factors may increase a person's likelihood of developing the disease. These risk factors include:
+<br><br>
+- Age: Prostate cancer is more common in older men, with most cases occurring in men over the age of 65.<br>
+- Family history: If a close relative (such as a father or brother) has had prostate cancer, a person's risk of developing the disease is higher.<br>
+- African American race: African American men are more likely to develop prostate cancer than men of other races.<br>
+- Obesity: Obesity may increase the risk of developing advanced prostate cancer.<br>
+- Hormonal imbalances: Prostate cancer may be related to hormonal imbalances, such as high levels of testosterone.<br><br><br>
+
+<h3><b>Diagnosis of Prostate Cancer:</b></h3><br>
+
+The diagnosis of prostate cancer often involves a combination of a physical exam, blood tests, and imaging tests. A healthcare professional may perform a digital rectal exam (DRE) to feel for any lumps or abnormalities in the prostate gland. Blood tests, such as a prostate-specific antigen (PSA) test, can help detect the presence of cancer cells in the prostate gland. Imaging tests, such as an ultrasound or MRI, can help detect any abnormalities in the prostate gland.
+<br><br><br>
+<h3><b>Treatment Options for Prostate Cancer:</b></h3><br>
+
+The treatment options for prostate cancer depend on the stage of the cancer, as well as the patient's overall health. Common treatment options for prostate cancer may include:
+<br><br>
+- Active surveillance: Active surveillance involves monitoring the cancer with regular checkups and tests, but not treating it right away.<br>
+- Surgery: Surgery may be used to remove the cancerous tissue from the prostate gland.<br>
+- Radiation therapy: Radiation therapy uses high-energy rays to kill cancer cells in the prostate gland.<br>
+- Hormone therapy: Hormone therapy involves using drugs to lower the levels of testosterone in the body, which can slow the growth of prostate &nbsp;&nbsp;&nbsp;cancer cells.<br>
+- Chemotherapy: Chemotherapy involves using drugs to kill cancer cells throughout the body.<br><br>
+
+In some cases, a combination of these treatments may be used. It is also common for patients to receive additional therapies, such as physical therapy or counseling, to help manage the side effects of treatment.
+<br><br><br>
+<h3><b>Prevention of Prostate Cancer:</b></h3><br>
+
+There is no surefire way to prevent prostate cancer, but certain lifestyle changes may help reduce a person's risk. These lifestyle changes may include:
+<br><br>
+- Eating a healthy diet that is low in fat and high in fruits and vegetables<br>
+- Exercising regularly<br>
+- Maintaining a healthy weight<br>
+- Limiting alcohol consumption<br>
+- Not smoking<br><br><br>
+
+<h3><b>Conclusion:</b></h3><br>
+
+Prostate cancer is a common type of cancer that develops in the prostate gland in men. The symptoms of prostate cancer can vary depending on the stage of the cancer. Treatment options for prostate cancer depend on the stage of the cancer, as well as the patient's overall health. With early detection and appropriate treatment, the prognosis for prostate cancer is generally good.
+
+
+
+</div>
+
+
+
+
+
+
+  <br><br>
+  <div class="w3-container w3-dark-grey w3-padding-32">
+    <div class="w3-row">
+      <div class="w3-container w3-third">
+        <h5 class="w3-bottombar w3-border-pink">About Breast Cancer</h5>
+            <p><a href="/what">What is breast cancer?</a></p>
+            <p><a href="/scf">Symptoms and Causes</a></p>
+            <p><a href="/dat">Diagnosis and Treatment</a></p>
+          </div>
+          <div class="w3-container w3-third">
+            <h5 class="w3-bottombar w3-border-teal">Male Breast Cancer</h5>
+            <p><a href="/mbc">Do males have breast cancer?</a></p>
+            <p><a href="/scm">Symptoms and Causes in males</a></p>
+            <p><a href="/datm">Diagnosis and Treatment</a></p>
+          </div>
+          <div class="w3-container w3-third">
+            <h5 class="w3-bottombar w3-border-blue">Other Cancer Types</h5>
+            <p><a href="/luc">Lung Cancer</a></p>
+            <p><a href="/brc">Bronchus Cancer</a></p>
+            <p><a href="/prc">Prostate Cancer</a></p>
+            <p><a href="/crc">Colon and Rectum Cancer</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-10 ">
+    <p><center>We wish for your wellness!</center></p>
+  </footer>
+
+  <!-- End page content -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    
+<style>
+html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+
+body
+{
+background-color: #d6cbf5;
+
+}
+
+#space
+{
+margin-left: 100px;
+
+}
+
+
+#para
+{
+text-align: justify;
+margin-left: 100px;
+margin-right: 100px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- Top container -->
+<div class="w3-bar w3-top w3-large" style="z-index:4; background-color:#3B1364">
+      <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-text-white" onclick="w3_open();"><i class="fa fa-bars"></i>  Menu</button>
+      <span class="w3-bar-item w3-right w3-text-white">Cancer</span>
+</div>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container w3-row">
+    <div class="w3-col s4">
+      <a href="/BreastCancer"><img src="https://cdn-icons-png.flaticon.com/512/1/1247.png" class="w3-circle w3-margin-right" style="width:46px"  ></a>
+    </div>
+    <div class="w3-col s8 w3-bar">
+      <span>Welcome, <strong>Doctor</strong></span><br>
+     </div>
+  </div>
+  <hr>
+  <div class="w3-container">
+    <h5>Dashboard</h5> 
+  </div>
+  <div class="w3-bar-block">
+        <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onclick="w3_close()" title="close menu"><i class="fa fa-remove fa-fw"></i>  Close Menu</a>
+        <a href="/patient" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>  Patients</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-eye fa-fw"></i>  Overview</a>
+        <a href="/Analysis" class="w3-bar-item w3-button w3-padding"><i class="fa fa-diamond fa-fw"></i>  Analysis</a>
+        <a href="/Statistics" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bullseye fa-fw"></i>  Statistics</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bell fa-fw"></i>  Notifications</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bank fa-fw"></i>  Hospital</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-history fa-fw"></i>  History</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-cog fa-fw"></i>  Settings</a><br><br>
+  </div>
+</nav>
+
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px;margin-top:43px;">
+
+  <!-- Header -->
+  <header class="w3-container" style="padding-top:22px">
+    <h1><center><b>Diagnosis And Treatment</b></center></h1>
+  </header>
+  <br>
+
+
+
+
+
+<div id="para">
+
+<h3><b>Diagnosis of Breast Cancer:</b></h3><br>
+
+There are different methods that healthcare professionals may use to diagnose breast cancer. These include:
+<br><br>
+- Breast self-exams: Women are encouraged to perform regular breast self-exams to detect any changes in their breasts.<br>
+- Clinical breast exams: A healthcare professional may perform a clinical breast exam during a routine check-up.<br>
+- Mammograms: A mammogram is an X-ray of the breast that can detect changes in the breast tissue.<br>
+- Ultrasound: An ultrasound uses high-frequency sound waves to create images of the breast tissue.<br>
+- MRI: Magnetic resonance imaging (MRI) uses a magnetic field and radio waves to create detailed images of the breast tissue.<br>
+- Biopsy: A biopsy involves removing sample of breast tissue and examining it under a microscope to determine presence of cancerous cells.<br><br><br>
+
+<h3><b>Treatment Options for Breast Cancer:</b></h3><br>
+
+The treatment options for breast cancer depend on the type and stage of the cancer, as well as the patient's overall health. Common treatment options for breast cancer may include:
+<br><br>
+- Surgery: Surgery may be used to remove the cancerous tissue from the breast. In some cases, a mastectomy (removal of the entire breast) may be &nbsp;&nbsp;&nbsp; necessary.<br>
+- Radiation therapy: Radiation therapy uses high-energy rays to kill cancer cells in the breast tissue.<br>
+- Chemotherapy: Chemotherapy involves using drugs to kill cancer cells throughout the body.<br>
+- Hormone therapy: Hormone therapy may be used to block the hormones that fuel the growth of certain types of breast cancer.<br>
+- Targeted therapy: Targeted therapy involves using drugs that specifically target the cancer cells without affecting healthy cells.<br><br><br>
+
+
+<h3><b>Side Effects Of Treatment:</b></h3><br>
+In some cases, a combination of these treatments may be used. It is also common for patients to receive additional therapies, such as physical therapy or counseling, to help manage the side effects of treatment.
+<br><br>
+
+The side effects of breast cancer treatment can vary depending on the type of treatment used and the individual's overall health. Below are some common side effects associated with the different treatment options for breast cancer:
+<br><br>
+<ul><li>Surgery:
+<ul>
+  <li>Pain and discomfort at the incision site</li>
+  <li>Swelling and bruising</li>
+  <li>Limited arm mobility</li>
+  <li>Infection</li>
+  <li>Bleeding</li>
+</ul>  
+</li> <br>
+<li>Radiation therapy:
+
+<ul>
+  <li>Skin irritation and redness</li>
+  <li>Fatigue</li>
+  <li>Swelling in the breast or arm</li>
+  <li>Nausea and vomiting</li>
+  <li>Risk of lymphedema (swelling in the arm)</li>
+</ul>  
+
+</li> <br>
+<li>Chemotherapy:
+  <ul>
+  <li>Nausea and vomiting</li>
+  <li>Hair loss</li>
+  <li>Fatigue</li>
+  <li>Mouth sores</li>
+  <li>Increased risk of infection</li>
+  <li>Anemia</li>
+</ul>  
+
+</li> <br>
+<li>Hormone therapy:
+<ul>
+  <li>Menopausal symptoms, such as hot flashes and vaginal dryness</li>
+  <li>Mood changes</li>
+  <li>Joint pain and stiffness</li>
+  <li>Risk of blood clots or stroke</li>
+ </ul>  
+ 
+</li> <br>
+<li>Targeted therapy:
+<ul>
+  <li>Skin rash or irritation</li>
+  <li>Diarrhea</li>
+  <li>Fatigue</li>
+  <li>Nausea and vomiting</li>
+  <li>Risk of heart damage</li>
+</ul>  
+
+</li></ul>
+<br>
+It is important to note that not everyone will experience these side effects, and some people may experience different or more severe side effects. Healthcare professionals can provide information on how to manage side effects and improve quality of life during treatment. In some cases, additional therapies such as physical therapy, counseling, or support groups may be helpful in managing side effects and improving overall well-being.
+</div>
+
+
+
+
+
+
+  <br><br>
+  <div class="w3-container w3-dark-grey w3-padding-32">
+    <div class="w3-row">
+      <div class="w3-container w3-third">
+        <h5 class="w3-bottombar w3-border-pink">About Breast Cancer</h5>
+            <p><a href="/what">What is breast cancer?</a></p>
+            <p><a href="/scf">Symptoms and Causes</a></p>
+            <p><a href="/dat">Diagnosis and Treatment</a></p>
+          </div>
+          <div class="w3-container w3-third">
+            <h5 class="w3-bottombar w3-border-teal">Male Breast Cancer</h5>
+            <p><a href="/mbc">Do males have breast cancer?</a></p>
+            <p><a href="/scm">Symptoms and Causes in males</a></p>
+            <p><a href="/datm">Diagnosis and Treatment</a></p>
+          </div>
+          <div class="w3-container w3-third">
+            <h5 class="w3-bottombar w3-border-blue">Other Cancer Types</h5>
+            <p><a href="/luc">Lung Cancer</a></p>
+            <p><a href="/brc">Bronchus Cancer</a></p>
+            <p><a href="/prc">Prostate Cancer</a></p>
+            <p><a href="/crc">Colon and Rectum Cancer</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-10 ">
+    <p><center>We wish for your wellness!</center></p>
+  </footer>
+
+  <!-- End page content -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>

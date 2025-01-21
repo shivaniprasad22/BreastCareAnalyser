@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    
+<style>
+html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+
+body
+{
+background-color: #d6cbf5;
+}
+
+#space
+{
+margin-left: 100px;
+
+}
+
+#para
+{
+text-align: justify;
+margin-left: 100px;
+margin-right: 100px;
+}
+
+
+</style>
+</head>
+<body>
+
+<!-- Top container -->
+<div class="w3-bar w3-top w3-large" style="z-index:4; background-color:#3B1364">
+      <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-text-white" onclick="w3_open();"><i class="fa fa-bars"></i>  Menu</button>
+      <span class="w3-bar-item w3-right w3-text-white">Cancer</span>
+</div>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container w3-row">
+    <div class="w3-col s4">
+      <a href="/BreastCancer"><img src="https://cdn-icons-png.flaticon.com/512/1/1247.png" class="w3-circle w3-margin-right" style="width:46px"  ></a>
+    </div>
+    <div class="w3-col s8 w3-bar">
+      <span>Welcome, <strong>Doctor</strong></span><br>
+     </div>
+  </div>
+  <hr>
+  <div class="w3-container">
+    <h5>Dashboard</h5> 
+  </div>
+  <div class="w3-bar-block">
+        <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onclick="w3_close()" title="close menu"><i class="fa fa-remove fa-fw"></i>  Close Menu</a>
+        <a href="/patient" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>  Patients</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-eye fa-fw"></i>  Overview</a>
+        <a href="/Analysis" class="w3-bar-item w3-button w3-padding"><i class="fa fa-diamond fa-fw"></i>  Analysis</a>
+        <a href="/Statistics" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bullseye fa-fw"></i>  Statistics</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bell fa-fw"></i>  Notifications</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bank fa-fw"></i>  Hospital</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-history fa-fw"></i>  History</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-cog fa-fw"></i>  Settings</a><br><br>
+  </div>
+</nav>
+
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px;margin-top:43px;">
+
+  <!-- Header -->
+  <header class="w3-container" style="padding-top:22px">
+    <h1><b><center>Colon And Rectum Cancer</center></b></h1>
+  </header>
+  <br>
+
+
+
+
+<div id="para">
+
+  <b>Colon and rectum cancer</b>, also known as colorectal cancer, is a type of cancer that develops in the cells lining the colon or rectum. The colon and rectum are part of the large intestine, which is responsible for absorbing water and nutrients from food and eliminating waste from the body. Colorectal cancer is one of the most common types of cancer, and it can be highly treatable if caught early.
+<br><br><br>
+<h3><b>Symptoms of Colon and Rectum Cancer:</b></h3><br>
+
+In its early stages, colon and rectum cancer often has no symptoms. As the cancer grows, however, it can cause a range of symptoms, including:
+<br><br>
+- Changes in bowel habits, such as diarrhea or constipation<br>
+- Blood in the stool<br>
+- Abdominal pain or cramping<br>
+- Unexplained weight loss<br>
+- Fatigue<br>
+- Weakness<br><br>
+
+It is important to note that not all people with colon and rectum cancer will experience these symptoms, and some people may not have any symptoms at all. If a person has any concerns about their digestive health, they should talk to their healthcare professional.
+<br><br>
+<h3><b>Causes of Colon and Rectum Cancer:</b></h3><br>
+
+The exact cause of colon and rectum cancer is unknown, but certain risk factors may increase a person's likelihood of developing the disease. These risk factors include:
+<br><br>
+- Age: Colon and rectum cancer is more common in older adults, with most cases occurring in people over the age of 50.<br>
+- Family history: If a close relative (such as a parent or sibling) has had colon or rectum cancer, a person's risk of developing the disease is higher.<br>
+- Inflammatory bowel disease: People with inflammatory bowel disease (such as ulcerative colitis or Crohn's disease) may be at higher risk of &nbsp;&nbsp;&nbsp; developing colon and rectum cancer.<br>
+- Lifestyle factors: Certain lifestyle factors, such as a diet high in red and processed meats, smoking, and excessive alcohol consumption, may &nbsp;&nbsp;&nbsp;increase the risk of colon and rectum cancer.<br><br><br>
+
+<h3><b>Diagnosis of Colon and Rectum Cancer:</b></h3><br>
+
+The diagnosis of colon and rectum cancer often involves a combination of a physical exam, blood tests, and imaging tests. A healthcare professional may perform a colonoscopy, which involves using a long, flexible tube with a camera on the end to examine the inside of the colon and rectum. A biopsy may also be performed to determine whether cancerous cells are present.
+<br><br><br>
+<h3><b>Treatment Options for Colon and Rectum Cancer:</b></h3><br>
+
+The treatment options for colon and rectum cancer depend on the stage of the cancer, as well as the patient's overall health. Common treatment options for colon and rectum cancer may include:
+<br><br>
+- Surgery: Surgery may be used to remove the cancerous tissue from the colon or rectum. In some cases, a portion of the colon or rectum may &nbsp;&nbsp;&nbsp; need to be removed.<br>
+- Radiation therapy: Radiation therapy uses high-energy rays to kill cancer cells in the colon or rectum.<br>
+- Chemotherapy: Chemotherapy involves using drugs to kill cancer cells throughout the body.<br>
+- Targeted therapy: Targeted therapy involves using drugs that specifically target the cancer cells without affecting healthy cells.<br><br>
+
+In some cases, a combination of these treatments may be used. It is also common for patients to receive additional therapies, such as physical therapy or counseling, to help manage the side effects of treatment.
+<br><br><br>
+<h3><b>Prevention of Colon and Rectum Cancer:</b></h3><br>
+
+There are several lifestyle changes that may help reduce a person's risk of developing colon and rectum cancer. These lifestyle changes may include:
+<br><br>
+- Eating a healthy diet that is high in fiber and low in red and processed meats<br>
+- Exercising regularly<br>
+- Maintaining a healthy weight<br>
+- Not smoking<br>
+- Limiting alcohol consumption<br><br>
+
+Screening for colon and rectum cancer may also be recommended for people who are at high risk, such as those with a family history of the disease.
+<br><br><br>
+<h3><b>Conclusion:</b></h3><br>
+
+Colon and rectum cancer is a common type of cancer that develops in the cells lining the colon or rectum. The symptoms of colon and rectum cancer can vary depending on the stage of the cancer. Treatment options for colon and rectum cancer depend on the stage of the cancer, as well as the patient's overall health. With early detection and appropriate treatment, the prognosis for colon and rectum cancer is generally good.
+
+
+</div>
+
+
+
+
+
+  <br><br>
+  <div class="w3-container w3-dark-grey w3-padding-32">
+    <div class="w3-row">
+      <div class="w3-container w3-third">
+        <h5 class="w3-bottombar w3-border-pink">About Breast Cancer</h5>
+            <p><a href="/what">What is breast cancer?</a></p>
+            <p><a href="/scf">Symptoms and Causes</a></p>
+            <p><a href="/dat">Diagnosis and Treatment</a></p>
+          </div>
+          <div class="w3-container w3-third">
+            <h5 class="w3-bottombar w3-border-teal">Male Breast Cancer</h5>
+            <p><a href="/mbc">Do males have breast cancer?</a></p>
+            <p><a href="/scm">Symptoms and Causes in males</a></p>
+            <p><a href="/datm">Diagnosis and Treatment</a></p>
+          </div>
+          <div class="w3-container w3-third">
+            <h5 class="w3-bottombar w3-border-blue">Other Cancer Types</h5>
+            <p><a href="/luc">Lung Cancer</a></p>
+            <p><a href="/brc">Bronchus Cancer</a></p>
+            <p><a href="/prc">Prostate Cancer</a></p>
+            <p><a href="/crc">Colon and Rectum Cancer</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-10 ">
+    <p><center>We wish for your wellness!</center></p>
+  </footer>
+
+  <!-- End page content -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>

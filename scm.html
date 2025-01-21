@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    
+<style>
+html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+
+body
+{
+background-color: #d6cbf5;
+}
+
+#space
+{
+margin-left: 100px;
+
+}
+
+#para
+{
+text-align: justify;
+margin-left: 100px;
+margin-right: 100px;
+}
+
+
+</style>
+</head>
+<body>
+
+<!-- Top container -->
+<div class="w3-bar w3-top w3-large" style="z-index:4; background-color:#3B1364">
+      <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-text-white" onclick="w3_open();"><i class="fa fa-bars"></i>  Menu</button>
+      <span class="w3-bar-item w3-right w3-text-white">Cancer</span>
+</div>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container w3-row">
+    <div class="w3-col s4">
+      <a href="/BreastCancer"><img src="https://cdn-icons-png.flaticon.com/512/1/1247.png" class="w3-circle w3-margin-right" style="width:46px"  ></a>
+    </div>
+    <div class="w3-col s8 w3-bar">
+      <span>Welcome, <strong>Doctor</strong></span><br>
+     </div>
+  </div>
+  <hr>
+  <div class="w3-container">
+    <h5>Dashboard</h5> 
+  </div>
+  <div class="w3-bar-block">
+        <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onclick="w3_close()" title="close menu"><i class="fa fa-remove fa-fw"></i>  Close Menu</a>
+        <a href="/patient" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>  Patients</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-eye fa-fw"></i>  Overview</a>
+        <a href="/Analysis" class="w3-bar-item w3-button w3-padding"><i class="fa fa-diamond fa-fw"></i>  Analysis</a>
+        <a href="/Statistics" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bullseye fa-fw"></i>  Statistics</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bell fa-fw"></i>  Notifications</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bank fa-fw"></i>  Hospital</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-history fa-fw"></i>  History</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-cog fa-fw"></i>  Settings</a><br><br>
+  </div>
+</nav>
+
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px;margin-top:43px;">
+
+  <!-- Header -->
+  <header class="w3-container" style="padding-top:22px">
+    <h1><center><b>Symptoms and Causes</b></center></h1>
+  </header>
+  <br>
+
+
+
+
+
+
+ <div id="para">
+
+<h3><b>Symptoms of Male Breast Cancer:</b></h3><br>
+
+The symptoms of male breast cancer are similar to those in women and may include:
+<br><br>
+- A lump or thickening in the breast or underarm area<br>
+- Nipple discharge (other than breast milk)<br>
+- Nipple inversion (when the nipple turns inward)<br>
+- Skin changes (such as redness, scaliness, or dimpling)<br><br>
+
+It is essential to note that not all lumps or changes in the breast are cancerous. However, any unusual changes in the breast should be examined by a healthcare professional.
+<br><br><br>
+
+<h3><b>Causes of Male Breast Cancer:</b></h3><br>
+
+The exact cause of male breast cancer is unknown, but certain risk factors may increase a person's likelihood of developing the disease. These risk factors include:
+<br><br>
+- Age: Breast cancer in men is more common in older men, with the average age of diagnosis being 68 years old.<br>
+- Family history: If a close relative (such as a mother, sister, or daughter) has had breast cancer, a person's risk of developing the disease is higher.<br>
+- Radiation exposure: Men who receive radiation treatment in chest area, such as for lymphoma, may have an increased risk of breast cancer.<br>
+- Hormonal imbalances: Men with conditions that affect their hormone levels, such as Klinefelter syndrome, are at an increased risk of breast cancer.<br>
+- Certain genetic mutations: Mutations in the BRCA1 and BRCA2 genes can increase the risk of breast cancer in both men and women.<br><br>
+
+It is important for men to be aware that breast cancer can occur in males and to seek medical attention if they notice any unusual changes in their breasts.
+
+
+
+ </div>
+
+
+
+
+
+
+  <br><br>
+  <div class="w3-container w3-dark-grey w3-padding-32">
+    <div class="w3-row">
+      <div class="w3-container w3-third">
+        <h5 class="w3-bottombar w3-border-pink">About Breast Cancer</h5>
+            <p><a href="/what">What is breast cancer?</a></p>
+            <p><a href="/scf">Symptoms and Causes</a></p>
+            <p><a href="/dat">Diagnosis and Treatment</a></p>
+          </div>
+          <div class="w3-container w3-third">
+            <h5 class="w3-bottombar w3-border-teal">Male Breast Cancer</h5>
+            <p><a href="/mbc">Do males have breast cancer?</a></p>
+            <p><a href="/scm">Symptoms and Causes in males</a></p>
+            <p><a href="/datm">Diagnosis and Treatment</a></p>
+          </div>
+          <div class="w3-container w3-third">
+            <h5 class="w3-bottombar w3-border-blue">Other Cancer Types</h5>
+            <p><a href="/luc">Lung Cancer</a></p>
+            <p><a href="/brc">Bronchus Cancer</a></p>
+            <p><a href="/prc">Prostate Cancer</a></p>
+            <p><a href="/crc">Colon and Rectum Cancer</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-10 ">
+    <p><center>We wish for your wellness!</center></p>
+  </footer>
+
+  <!-- End page content -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>

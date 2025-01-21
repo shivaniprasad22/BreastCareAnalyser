@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    
+<style>
+html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+
+body
+{
+background-color: #d6cbf5;
+}
+
+#space
+{
+margin-left: 100px;
+
+}
+
+#para
+{
+text-align: justify;
+margin-left: 100px;
+margin-right: 100px;
+}
+
+
+</style>
+</head>
+<body>
+
+<!-- Top container -->
+<div class="w3-bar w3-top w3-large" style="z-index:4; background-color:#3B1364">
+      <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-text-white" onclick="w3_open();"><i class="fa fa-bars"></i>  Menu</button>
+      <span class="w3-bar-item w3-right w3-text-white">Cancer</span>
+</div>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container w3-row">
+    <div class="w3-col s4">
+      <a href="/BreastCancer"><img src="https://cdn-icons-png.flaticon.com/512/1/1247.png" class="w3-circle w3-margin-right" style="width:46px"  ></a>
+    </div>
+    <div class="w3-col s8 w3-bar">
+      <span>Welcome, <strong>Doctor</strong></span><br>
+     </div>
+  </div>
+  <hr>
+  <div class="w3-container">
+    <h5>Dashboard</h5> 
+  </div>
+  <div class="w3-bar-block">
+        <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onclick="w3_close()" title="close menu"><i class="fa fa-remove fa-fw"></i>  Close Menu</a>
+        <a href="/patient" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>  Patients</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-eye fa-fw"></i>  Overview</a>
+        <a href="/Analysis" class="w3-bar-item w3-button w3-padding"><i class="fa fa-diamond fa-fw"></i>  Analysis</a>
+        <a href="/Statistics" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bullseye fa-fw"></i>  Statistics</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bell fa-fw"></i>  Notifications</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bank fa-fw"></i>  Hospital</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-history fa-fw"></i>  History</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-cog fa-fw"></i>  Settings</a><br><br>
+  </div>
+</nav>
+
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px;margin-top:43px;">
+
+  <!-- Header -->
+  <header class="w3-container" style="padding-top:22px">
+    <h1><center><b>Diagnosis And Treatment</b></center></h1>
+  </header>
+  <br>
+
+
+
+
+<div id="para">
+<h3><b>Survival Rate Of Males:</b></h3><br>
+
+The survival rates for male breast cancer depend on several factors, including the stage and type of cancer, the age and overall health of the patient, and the treatment options used. Survival rates are usually reported in terms of the percentage of patients who survive for a certain period of time after being diagnosed with the disease.
+
+<br><br>According to the American Cancer Society, the 5-year relative survival rate for men with breast cancer is about 84%. This means that, on average, about 84% of men diagnosed with breast cancer are expected to survive for at least 5 years after their diagnosis. However, it is important to note that survival rates can vary widely depending on the stage and type of cancer.
+
+<br><br>For men with localized breast cancer (cancer that has not spread beyond the breast), the 5-year relative survival rate is about 100%. This means that most men with localized breast cancer can expect to survive for at least 5 years after their diagnosis.
+
+<br><br>For men with regional breast cancer (cancer that has spread to nearby lymph nodes), the 5-year relative survival rate is about 86%.
+
+<br><br>For men with distant breast cancer (cancer that has spread to other parts of the body), the 5-year relative survival rate is about 27%. However, it is important to note that advances in treatment options have improved survival rates for men with metastatic breast cancer in recent years.
+
+<br><br>It is important to remember that survival rates are based on large groups of patients and do not predict individual outcomes. Each patient's experience with breast cancer is unique, and survival rates should not be used to predict the outcome of any individual case. It is important for men with breast cancer to work closely with their healthcare team to develop an individualized treatment plan and to receive ongoing care and support.
+
+<br><br><br>
+
+<h3><b>Diagnosis of Male Breast Cancer:</b></h3><br>
+  Male breast cancer is diagnosed by a combination of physical examination, imaging tests, and biopsy. According to a web search result¹, some of the diagnostic tests and procedures that may be used are:
+<br><br>
+- Clinical breast exam. The doctor uses his or her fingertips to examine your breasts and surrounding areas for lumps or other changes. Your doctor  &nbsp; &nbsp; assesses how large the lumps are, how they feel, and how close they are to your skin and muscles.<br>
+- Imaging tests. Imaging tests create pictures of your breast tissue, allowing doctors to identify abnormal areas. Tests may include a breast X-ray  &nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp; (mammogram) or an ultrasound, which uses sound waves to create images.<br>
+- Removing a sample of breast cells for testing (biopsy). A biopsy is the only definitive way to make a diagnosis of breast cancer. During a biopsy, <br>&nbsp;&nbsp;your doctor uses a specialized needle device guided by an X-ray or another imaging test to extract a core of tissue from the suspicious area.<br> &nbsp;&nbsp; Biopsy &nbsp; samples are sent to a laboratory for analysis where experts determine whether the cells are cancerous.<br><br>
+
+The type and stage of breast cancer will also be determined by analyzing the biopsy sample and other tests. This will help your doctor plan the best treatment options for you.
+
+</div>
+
+
+
+
+
+
+  <br><br>
+  <div class="w3-container w3-dark-grey w3-padding-32">
+    <div class="w3-row">
+      <div class="w3-container w3-third">
+        <h5 class="w3-bottombar w3-border-pink">About Breast Cancer</h5>
+            <p><a href="/what">What is breast cancer?</a></p>
+            <p><a href="/scf">Symptoms and Causes</a></p>
+            <p><a href="/dat">Diagnosis and Treatment</a></p>
+          </div>
+          <div class="w3-container w3-third">
+            <h5 class="w3-bottombar w3-border-teal">Male Breast Cancer</h5>
+            <p><a href="/mbc">Do males have breast cancer?</a></p>
+            <p><a href="/scm">Symptoms and Causes in males</a></p>
+            <p><a href="/datm">Diagnosis and Treatment</a></p>
+          </div>
+          <div class="w3-container w3-third">
+            <h5 class="w3-bottombar w3-border-blue">Other Cancer Types</h5>
+            <p><a href="/luc">Lung Cancer</a></p>
+            <p><a href="/brc">Bronchus Cancer</a></p>
+            <p><a href="/prc">Prostate Cancer</a></p>
+            <p><a href="/crc">Colon and Rectum Cancer</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-10 ">
+    <p><center>We wish for your wellness!</center></p>
+  </footer>
+
+  <!-- End page content -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>

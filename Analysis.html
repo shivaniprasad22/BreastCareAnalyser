@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    
+<style>
+html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+
+body
+{
+background-color: #d6cbf5;
+}
+
+
+#fname
+    {
+
+    width: 100%;
+    margin-left: 170px;
+    }
+
+    label
+    {
+
+    width: 100%;
+    margin-left: 170px;
+    }
+
+    input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  margin-left: 370px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<!-- Top container -->
+<div class="w3-bar w3-top w3-large" style="z-index:4; background-color:#3B1364">
+      <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-text-white" onclick="w3_open();"><i class="fa fa-bars"></i>  Menu</button>
+      <span class="w3-bar-item w3-right w3-text-white">Cancer</span>
+</div>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container w3-row">
+    <div class="w3-col s4">
+      <a href="/BreastCancer"><img src="https://cdn-icons-png.flaticon.com/512/1/1247.png" class="w3-circle w3-margin-right" style="width:46px"  ></a>
+    </div>
+    <div class="w3-col s8 w3-bar">
+      <span>Welcome, <strong>Doctor</strong></span><br>
+     </div>
+  </div>
+  <hr>
+  <div class="w3-container">
+    <h5>Dashboard</h5> 
+  </div>
+  <div class="w3-bar-block">
+        <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onclick="w3_close()" title="close menu"><i class="fa fa-remove fa-fw"></i>  Close Menu</a>
+        <a href="/patient" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>  Patients</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-eye fa-fw"></i>  Overview</a>
+        <a href="/Analysis" class="w3-bar-item w3-button w3-padding"><i class="fa fa-diamond fa-fw"></i>  Analysis</a>
+        <a href="/Statistics" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bullseye fa-fw"></i>  Statistics</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bell fa-fw"></i>  Notifications</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bank fa-fw"></i>  Hospital</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-history fa-fw"></i>  History</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-cog fa-fw"></i>  Settings</a><br><br>
+  </div>
+</nav>
+
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px;margin-top:43px;">
+
+  <!-- Header -->
+  <header class="w3-container" style="padding-top:22px">
+    <h1><b><center>Breast Cancer Analysis</center></b></h1>
+  </header>
+  <br>
+  <table><tr><td>
+    <form action="/Analysis" method="POST">
+      <div class="row">  
+
+        <div class="col"> 
+          <table><tr><td>
+  
+           <label for="fname"><b>Radius Mean</b></label><br><input type="text" id="fname" name="m1" placeholder="Value..">
+           <br><br>
+           <label for="fname"><b>Texture Mean</b></label><br><input type="text" id="fname" name="m2" placeholder="Value..">
+           <br><br>       
+           <label for="fname"><b>Perimeter Mean</b></label><br><input type="text" id="fname" name="m3" placeholder="Value..">
+           <br><br> 
+           <label for="fname"><b>Area Mean</b></label><br><input type="text" id="fname" name="m4" placeholder="Value..">
+           <br><br>       
+           <label for="fname"><b>Smoothness Mean</b></label><br><input type="text" id="fname" name="m5" placeholder="Value..">
+           <br><br>
+           <label for="fname"><b>Compactness Mean</b></label><br><input type="text" id="fname" name="m6" placeholder="Value..">
+           <br><br>
+           <label for="fname"><b>Concavity Mean</b></label><br><input type="text" id="fname" name="m7" placeholder="Value..">
+           <br><br>
+           <label for="fname"><b>Concave Points Mean</b></label><br><input type="text" id="fname" name="m8" placeholder="Value..">
+           <br><br>
+           <label for="fname"><b>Symmetry Mean</b></label><br><input type="text" id="fname" name="m9" placeholder="Value..">
+           <br><br>
+           <label for="fname"><b>Fractal Dimension Mean</b></label><br><input type="text" id="fname" name="m10" placeholder="Value..">
+           <br><br>
+           <label for="fname"><b>Radius Se</b></label><br><input type="text" id="fname" name="s1" placeholder="Value..">
+           <br><br>
+           <label for="fname"><b>Texture Se</b></label><br><input type="text" id="fname" name="s2" placeholder="Value..">
+           <br><br>
+           <label for="fname"><b>Perimeter Se</b></label><br><input type="text" id="fname" name="s3" placeholder="Value..">
+           <br><br>
+           <label for="fname"><b>Area Se</b></label><br><input type="text" id="fname" name="s4" placeholder="Value..">
+           <br><br>     
+           <label for="fname"><b>Smoothness Se</b></label><br><input type="text" id="fname" name="s5" placeholder="Value..">
+  
+          </td></tr></table>
+        </div>   
+      </div>
+  
+  
+      </td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td><td>
+  
+  
+      <div class="row">  
+  
+        <div class="col"> 
+          <table><tr><td>
+  
+           <label for="fname"><b>Compactness Se</b></label><br><input type="text" id="fname" name="s6" placeholder="Value..">
+           <br><br>
+           <label for="fname"><b>Concavity Se </b></label><br><input type="text" id="fname" name="s7" placeholder="Value..">
+           <br><br>       
+           <label for="fname"><b>Concave Points Se </b></label><br><input type="text" id="fname" name="s8" placeholder="Value..">
+           <br><br> 
+           <label for="fname"><b>Symmetry Se</b></label><br><input type="text" id="fname" name="s9" placeholder="Value..">
+           <br><br>       
+           <label for="fname"><b>Fractal Dimension Se</b></label><br><input type="text" id="fname" name="s10" placeholder="Value..">
+           <br><br>
+           <label for="fname"><b>Radius Worst</b></label><br><input type="text" id="fname" name="w1" placeholder="Value..">
+           <br><br>
+           <label for="fname"><b>Texture Worst</b></label><br><input type="text" id="fname" name="w2" placeholder="Value..">
+           <br><br>
+           <label for="fname"><b>Perimeter Worst </b></label><br><input type="text" id="fname" name="w3" placeholder="Value..">
+           <br><br>
+           <label for="fname"><b>Area Worst </b></label><br><input type="text" id="fname" name="w4" placeholder="Value..">
+           <br><br>
+           <label for="fname"><b>Smoothness Worst</b></label><br><input type="text" id="fname" name="w5" placeholder="Value..">
+           <br><br>
+           <label for="fname"><b>Compactness Worst</b></label><br><input type="text" id="fname" name="w6" placeholder="Value..">
+           <br><br>
+           <label for="fname"><b>Concavity Worst</b></label><br><input type="text" id="fname" name="w7" placeholder="Value..">
+           <br><br>
+           <label for="fname"><b> Concave Points Worst</b></label><br><input type="text" id="fname" name="w8" placeholder="Value..">
+           <br><br>
+           <label for="fname"><b>Symmetry Worst</b></label><br><input type="text" id="fname" name="w9" placeholder="Value..">
+           <br><br>     
+           <label for="fname"><b> Fractal Dimension Worst</b></label><br><input type="text" id="fname" name="w10" placeholder="Value..">
+  
+          </td></tr></table>
+          
+        </div>   
+      </div>
+  
+      </td>
+      <table>
+      <tr>
+      <td><br><br><input type="submit" value="Submit"></td>
+    </tr>
+      </table>
+  </form>
+    </tr></table><br>
+     <br><br>
+  <div class="w3-container w3-dark-grey w3-padding-32">
+    <div class="w3-row">
+      <div class="w3-container w3-third">
+        <h5 class="w3-bottombar w3-border-pink">About Breast Cancer</h5>
+            <p><a href="/what">What is breast cancer?</a></p>
+            <p><a href="/scf">Symptoms and Causes</a></p>
+            <p><a href="/dat">Diagnosis and Treatment</a></p>
+          </div>
+          <div class="w3-container w3-third">
+            <h5 class="w3-bottombar w3-border-teal">Male Breast Cancer</h5>
+            <p><a href="/mbc">Do males have breast cancer?</a></p>
+            <p><a href="/scm">Symptoms and Causes in males</a></p>
+            <p><a href="/datm">Diagnosis and Treatment</a></p>
+          </div>
+          <div class="w3-container w3-third">
+            <h5 class="w3-bottombar w3-border-blue">Other Cancer Types</h5>
+            <p><a href="/luc">Lung Cancer</a></p>
+            <p><a href="/brc">Bronchus Cancer</a></p>
+            <p><a href="/prc">Prostate Cancer</a></p>
+            <p><a href="/crc">Colon and Rectum Cancer</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-10 ">
+    <p><center>We wish for your wellness!</center></p>
+  </footer>
+
+  <!-- End page content -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
